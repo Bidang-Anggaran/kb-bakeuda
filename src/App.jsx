@@ -1,13 +1,10 @@
-import CodeList from "./components/CodeList";
-
+import ItemsList from './components/ItemsList';
 function App() {
   return (
-    <>
-      <h1 className="text-3xl font-bold underline text-gray-60">
-        Hello world!
-      </h1>
-      <CodeList />
-    </>
+    <section className='container mx-auto px-4 text-slate-800 '>
+      <ItemsList />
+
+    </section>
   );
 }
 
