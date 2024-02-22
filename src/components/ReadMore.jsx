@@ -7,11 +7,11 @@ const ReadMore = ({ children }) => {
     setIsReadMore(!isReadMore);
   };
   return (
-    <p className="">
+    <p className="text-sm">
       {isReadMore ? text.slice(0, 150) : text}
 
       {text.length > 150 ? (
-        <span onClick={toggleReadMore} className="font-bold cursor-pointer">
+        <span onClick={toggleReadMore} className="text-sm font-bold cursor-pointer">
           {isReadMore ? "...Lebih banyak" : " Lebih sedikit"}
         </span>
       ) : null}

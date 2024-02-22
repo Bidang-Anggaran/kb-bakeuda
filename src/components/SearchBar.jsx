@@ -33,7 +33,7 @@ const SearchBar = ({ searchHandler }) => {
           Cari
         </button>
       </form>
-      <Dropdown />
+      {/* <Dropdown /> */}
 
     </>
   );
