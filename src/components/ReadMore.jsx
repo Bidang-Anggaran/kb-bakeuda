@@ -5,14 +5,13 @@ const ReadMore = ({ children }) => {
   const [isReadMore, setIsReadMore] = useState(true);
   const toggleReadMore = () => {
     setIsReadMore(!isReadMore);
-    console.log(text.length);
   };
   return (
     <p className="">
       {isReadMore ? text.slice(0, 150) : text}
 
       {text.length > 150 ? (
-        <span onClick={toggleReadMore} className="font-bold">
+        <span onClick={toggleReadMore} className="font-bold cursor-pointer">
           {isReadMore ? "...Lebih banyak" : " Lebih sedikit"}
         </span>
       ) : null}
