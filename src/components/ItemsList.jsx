@@ -1,14 +1,12 @@
 import { useState } from "react";
 import kodeBelanja from "../json/kodeBelanja.json";
 import ReadMore from "./ReadMore";
-const itemsPerPage = 20;
 
-const ItemsList = ({ searchRef }) => {
+
+const ItemsList = ({ searchRef, handleNextPage, handlePreviousPage, startIndex, endIndex }) => {
   useState();
-  const [currentPage, setCurrentPage] = useState(1);
 
-  const startIndex = (currentPage - 1) * itemsPerPage;
-  const endIndex = startIndex + itemsPerPage;
+
 
   const filteredKodeBelanja =
     searchRef !== ""
@@ -27,12 +25,7 @@ const ItemsList = ({ searchRef }) => {
   // console.log(filteredKodeBelanja.length)
 
   const currentData = filteredKodeBelanja.slice(startIndex, endIndex);
-  const handleNextPage = () => {
-    setCurrentPage((prevPage) => prevPage + 1);
-  };
-  const handlePreviousPage = () => {
-    setCurrentPage((prevPage) => prevPage - 1);
-  };
+
 
   const formatString = (input) => {
     // Split the string into an array of parts
@@ -53,6 +46,7 @@ const ItemsList = ({ searchRef }) => {
 
   return (
     <>
+    <p>Ditemukan {filteredKodeBelanja.length} data. </p>
       <div className="divide-y-2 flex flex-col justify-between divide-slate-300">
         {currentData.map((e) => (
           <div key={e.kode} className="flex divide-x-2 divide-slate-300">
@@ -77,6 +71,20 @@ const ItemsList = ({ searchRef }) => {
             </p>
           </div>
         ))}
+        <div className="flex justify-between py-4">
+          <button
+            onClick={handlePreviousPage}
+            className="px-2 py-2 text-slate-200 bg-blue-500 rounded-md"
+          >
+            Previous Page
+          </button>
+          <button
+            onClick={handleNextPage}
+            className="px-2 py-2 text-slate-200 bg-blue-500 rounded-md"
+          >
+            Next Page
+          </button>
+        </div>
       </div>
     </>
   );

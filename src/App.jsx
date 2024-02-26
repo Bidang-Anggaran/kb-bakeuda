@@ -1,11 +1,25 @@
 import { useState } from "react";
 import ItemsList from "./components/ItemsList";
 import SearchBar from "./components/SearchBar";
-
+const itemsPerPage = 20;
 function App() {
   const [searchInput, setSearchInput] = useState("");
+  const [currentPage, setCurrentPage] = useState(1);
+
+  const startIndex = (currentPage - 1) * itemsPerPage;
+  const endIndex = startIndex + itemsPerPage;
+
+  const handleNextPage = () => {
+    setCurrentPage((prevPage) => prevPage + 1);
+  };
+  const handlePreviousPage = () => {
+    setCurrentPage((prevPage) => prevPage - 1);
+  };
+  
   const searchInputHandler = (input) => {
     setSearchInput(input);
+    setCurrentPage(() => 1);
+
     // console.log(input);
   };
   return (
@@ -18,9 +32,16 @@ function App() {
           {/* <h2>Cari Kode Belanja</h2> */}
         </div>
         <SearchBar searchHandler={searchInputHandler} />
-        <ItemsList searchRef={searchInput} />
+        <ItemsList
+          searchRef={searchInput}
+          handleNextPage={handleNextPage}
+          handlePreviousPage={handlePreviousPage}
+          startIndex={startIndex}
+          endIndex={endIndex}
+        />
       </main>
       {/* <Footer /> */}
+      <div className="h-24"></div>
     </>
   );
 }
