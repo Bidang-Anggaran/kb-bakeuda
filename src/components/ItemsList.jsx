@@ -53,29 +53,7 @@ const ItemsList = ({ searchRef }) => {
 
   return (
     <>
-      {/* <button
-        onClick={() => {
-          handleNextPage();
-        }}
-      >
-        Next Page
-      </button>
-      <button
-        onClick={() => {
-          handlePreviousPage();
-        }}
-      >
-        Previous Page
-      </button> */}
-
       <div className="divide-y-2 flex flex-col justify-between divide-slate-300">
-        {/* <div className="flex divide-x-2 divide-slate-300">
-          <h2 className="font-bold flex-[2] text-sm pb-2">Kode Rekening</h2>
-          <div className="flex-[5] px-2 pb2">
-            <h3 className="font-bold text-sm">Penjelasan</h3>
-          </div>
-          <p className="px-2 pb-2 flex-[4] text-sm font-bold">Keterangan</p>
-        </div> */}
         {currentData.map((e) => (
           <div key={e.kode} className="flex divide-x-2 divide-slate-300">
             <div className="min-w-36">

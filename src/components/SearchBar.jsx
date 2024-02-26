@@ -63,13 +63,13 @@ const SearchBar = ({ searchHandler }) => {
           <label htmlFor="deskripsi" className="mx-2">
             Deskripsi
           </label>
-        </div>
-        <div className="flex text-center">
-          <h2 className="font-bold flex-[2] text-sm pb-1">Kode Rekening</h2>
-          <h2 className="flex-[3] px-2 font-bold text-sm pb-1">Penjelasan</h2>
-          <h2 className="flex-[3] px-2 font-bold text-sm pb-1">Keterangan</h2>
-          <h2 className="flex-[3] px-2 font-bold text-sm pb-1">Ketentuan Lain-Lain</h2>
         </div> */}
+        <div className="flex text-center">
+          <h2 className="font-bold flex-[2] text-sm py-2 min-w-36">Kode Rekening</h2>
+          <h2 className="flex-[3] px-2 font-bold text-sm py-2 min-w-40">Penjelasan</h2>
+          <h2 className="flex-[3] px-2 font-bold text-sm py-2 min-w-40">Keterangan</h2>
+          <h2 className="flex-[3] px-2 font-bold text-sm py-2 min-w-40">Ketentuan Lain-Lain</h2>
+        </div>
       </form>
       {/* <Dropdown /> */}
     </>

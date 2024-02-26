@@ -1,7 +1,6 @@
 import { useState } from "react";
 import ItemsList from "./components/ItemsList";
 import SearchBar from "./components/SearchBar";
-import Footer from "./components/Footer";
 
 function App() {
   const [searchInput, setSearchInput] = useState("");
