@@ -11,11 +11,19 @@ const ItemsList = ({ searchRef }) => {
   const endIndex = startIndex + itemsPerPage;
 
   const filteredKodeBelanja =
-    searchRef != ""
-      ? kodeBelanja.filter((e) =>
-          `${e["deskripsi"]}`.toLowerCase().includes(searchRef.toLowerCase())
+    searchRef !== ""
+      ? kodeBelanja.filter((item) =>
+          Object.values(item).some((value) =>
+            `${value}`.toLowerCase().includes(searchRef.toLowerCase())
+          )
         )
       : kodeBelanja;
+  // const filteredKodeBelanja =
+  //   searchRef != ""
+  //     ? kodeBelanja.filter((e) =>
+  //         `${e["deskripsi"]}`.toLowerCase().includes(searchRef.toLowerCase())
+  //       )
+  //     : kodeBelanja;
   // console.log(filteredKodeBelanja.length)
 
   const currentData = filteredKodeBelanja.slice(startIndex, endIndex);
@@ -61,19 +69,21 @@ const ItemsList = ({ searchRef }) => {
       </button> */}
 
       <div className="divide-y-2 flex flex-col justify-between divide-slate-300">
-        <div className="flex divide-x-2 divide-slate-300">
+        {/* <div className="flex divide-x-2 divide-slate-300">
           <h2 className="font-bold flex-[2] text-sm pb-2">Kode Rekening</h2>
           <div className="flex-[5] px-2 pb2">
             <h3 className="font-bold text-sm">Penjelasan</h3>
           </div>
           <p className="px-2 pb-2 flex-[4] text-sm font-bold">Keterangan</p>
-        </div>
+        </div> */}
         {currentData.map((e) => (
           <div key={e.kode} className="flex divide-x-2 divide-slate-300">
-            <h2 className="font-bold flex-[2] text-sm">
-              {formatString(e.kode)}
-            </h2>
-            <div className="p-2 flex-[5]">
+            <div className="min-w-36">
+              <h2 className="font-bold flex-[2] text-sm p-2">
+                {formatString(e.kode)}
+              </h2>
+            </div>
+            <div className="p-2 flex-[3] min-w-40">
               <h3 className="font-bold text-sm">{e.nama}</h3>
               {e.deskripsi == "" ? (
                 <p className="text-sm">Deskripsi belum ditambah.</p>
@@ -81,8 +91,11 @@ const ItemsList = ({ searchRef }) => {
                 <ReadMore>{e.deskripsi}</ReadMore>
               )}
             </div>
-            <p className="p-2 flex-[4]">
+            <p className="p-2 flex-[3] text-sm min-w-40">
               {e.keterangan == "" ? "Keterangan Belum Ditambah" : e.keterangan}
+            </p>
+            <p className="p-2 flex-[3] text-sm min-w-40">
+              {e.keterangan == "" ? "Ketentuan Belum Ditambah" : e.keterangan}
             </p>
           </div>
         ))}

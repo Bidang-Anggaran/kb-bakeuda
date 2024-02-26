@@ -22,18 +22,19 @@ const SearchBar = ({ searchHandler }) => {
           <button
             onClick={() => {
               // if (searchRef.current.value != "") {
-              searchHandler(searchRef.current.value);
+                const filteredDots =  searchRef.current.value.replace(/\./g, '');
+              searchHandler(filteredDots);
               // }
               // console.log(searchRef.current.value);
               // console.log(searchRef.current);
             }}
-            className="px-6 py-2 bg-blue-500 text-slate-200 rounded-md ml-4 hover:bg-blue-600 transition-colors"
+            className="px-6 py-2 font-bold bg-blue-500 text-slate-200 rounded-md ml-4 hover:bg-blue-600 transition-colors"
           >
             Cari
           </button>
         </div>
 
-        <div className="py-2 flex">
+        {/* <div className="py-2 flex">
           <p className="mr-2">Cari Berdasarkan : </p>
           <input
             type="radio"
@@ -63,6 +64,12 @@ const SearchBar = ({ searchHandler }) => {
             Deskripsi
           </label>
         </div>
+        <div className="flex text-center">
+          <h2 className="font-bold flex-[2] text-sm pb-1">Kode Rekening</h2>
+          <h2 className="flex-[3] px-2 font-bold text-sm pb-1">Penjelasan</h2>
+          <h2 className="flex-[3] px-2 font-bold text-sm pb-1">Keterangan</h2>
+          <h2 className="flex-[3] px-2 font-bold text-sm pb-1">Ketentuan Lain-Lain</h2>
+        </div> */}
       </form>
       {/* <Dropdown /> */}
     </>
