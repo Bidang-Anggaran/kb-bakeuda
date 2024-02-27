@@ -1,10 +1,11 @@
-
 import kodeBelanja from "../json/kodeBelanja.json";
 import ReadMore from "./ReadMore";
 import { useBelanja } from "../context/BelanjaContext";
+import Pagination from "./Pagination";
 
 const ItemsList = () => {
-  const {startIndex, endIndex, handleNextPage, handlePreviousPage} = useBelanja();
+  const { startIndex, endIndex, handleNextPage, handlePreviousPage } =
+    useBelanja();
 
   const { searchInput } = useBelanja();
 
@@ -16,7 +17,7 @@ const ItemsList = () => {
           )
         )
       : kodeBelanja;
-      
+
   const currentData = filteredKodeBelanja.slice(startIndex, endIndex);
 
   const formatString = (input) => {
@@ -35,7 +36,6 @@ const ItemsList = () => {
 
   return (
     <>
-      <p>Ditemukan {filteredKodeBelanja.length} data. </p>
       <div className="divide-y-2 flex flex-col justify-between divide-slate-300">
         {currentData.map((e) => (
           <div key={e.kode} className="flex divide-x-2 divide-slate-300">
@@ -60,20 +60,7 @@ const ItemsList = () => {
             </p>
           </div>
         ))}
-        <div className="flex justify-between py-4">
-          <button
-            onClick={handlePreviousPage}
-            className="px-2 py-2 text-slate-200 bg-blue-500 rounded-md"
-          >
-            Previous Page
-          </button>
-          <button
-            onClick={handleNextPage}
-            className="px-2 py-2 text-slate-200 bg-blue-500 rounded-md"
-          >
-            Next Page
-          </button>
-        </div>
+        <Pagination totalItems={filteredKodeBelanja.length} />
       </div>
     </>
   );

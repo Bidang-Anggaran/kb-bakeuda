@@ -10,12 +10,10 @@ function App() {
             <h1 className="font-bold text-4xl mt-8 ubuntu- py-2">
               Rekening Pedia
             </h1>
-            {/* <h2>Cari Kode Belanja</h2> */}
           </div>
           <SearchBar />
           <ItemsList />
         </main>
-        {/* <Footer /> */}
         <div className="h-24"></div>
       </BelanjaProvider>
     </>

@@ -1,10 +1,9 @@
 import { useRef } from "react";
-import Dropdown from "./Dropdown";
 import { useBelanja } from "../context/BelanjaContext";
 
-const SearchBar = ({ searchHandler }) => {
+const SearchBar = () => {
   const searchRef = useRef(null);
-  const { pageNumberHandler, searchInputHandler } = useBelanja();
+  const { searchInputHandler } = useBelanja();
   return (
     <>
       <form
@@ -26,7 +25,6 @@ const SearchBar = ({ searchHandler }) => {
               // if (searchRef.current.value != "") {
               const filteredDots = searchRef.current.value.replace(/\./g, "");
               searchInputHandler(filteredDots);
-              pageNumberHandler(2);
               // }
               // console.log(searchRef.current.value);
               // console.log(searchRef.current);
