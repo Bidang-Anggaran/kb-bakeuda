@@ -1,8 +1,10 @@
 import { useRef } from "react";
 import Dropdown from "./Dropdown";
+import { useBelanja } from "../context/BelanjaContext";
 
 const SearchBar = ({ searchHandler }) => {
   const searchRef = useRef(null);
+  const { pageNumberHandler, searchInputHandler } = useBelanja();
   return (
     <>
       <form
@@ -22,8 +24,9 @@ const SearchBar = ({ searchHandler }) => {
           <button
             onClick={() => {
               // if (searchRef.current.value != "") {
-                const filteredDots =  searchRef.current.value.replace(/\./g, '');
-              searchHandler(filteredDots);
+              const filteredDots = searchRef.current.value.replace(/\./g, "");
+              searchInputHandler(filteredDots);
+              pageNumberHandler(2);
               // }
               // console.log(searchRef.current.value);
               // console.log(searchRef.current);
@@ -65,10 +68,18 @@ const SearchBar = ({ searchHandler }) => {
           </label>
         </div> */}
         <div className="flex text-center">
-          <h2 className="font-bold flex-[2] text-sm py-2 min-w-36">Kode Rekening</h2>
-          <h2 className="flex-[3] px-2 font-bold text-sm py-2 min-w-40">Penjelasan</h2>
-          <h2 className="flex-[3] px-2 font-bold text-sm py-2 min-w-40">Keterangan</h2>
-          <h2 className="flex-[3] px-2 font-bold text-sm py-2 min-w-40">Ketentuan Lain-Lain</h2>
+          <h2 className="font-bold flex-[2] text-sm py-2 min-w-36">
+            Kode Rekening
+          </h2>
+          <h2 className="flex-[3] px-2 font-bold text-sm py-2 min-w-40">
+            Penjelasan
+          </h2>
+          <h2 className="flex-[3] px-2 font-bold text-sm py-2 min-w-40">
+            Keterangan
+          </h2>
+          <h2 className="flex-[3] px-2 font-bold text-sm py-2 min-w-40">
+            Ketentuan Lain-Lain
+          </h2>
         </div>
       </form>
       {/* <Dropdown /> */}

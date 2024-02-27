@@ -1,34 +1,25 @@
-import { useState } from "react";
+
 import kodeBelanja from "../json/kodeBelanja.json";
 import ReadMore from "./ReadMore";
+import { useBelanja } from "../context/BelanjaContext";
 
+const ItemsList = () => {
+  const {startIndex, endIndex, handleNextPage, handlePreviousPage} = useBelanja();
 
-const ItemsList = ({ searchRef, handleNextPage, handlePreviousPage, startIndex, endIndex }) => {
-  useState();
-
-
+  const { searchInput } = useBelanja();
 
   const filteredKodeBelanja =
-    searchRef !== ""
+    searchInput !== ""
       ? kodeBelanja.filter((item) =>
           Object.values(item).some((value) =>
-            `${value}`.toLowerCase().includes(searchRef.toLowerCase())
+            `${value}`.toLowerCase().includes(searchInput.toLowerCase())
           )
         )
       : kodeBelanja;
-  // const filteredKodeBelanja =
-  //   searchRef != ""
-  //     ? kodeBelanja.filter((e) =>
-  //         `${e["deskripsi"]}`.toLowerCase().includes(searchRef.toLowerCase())
-  //       )
-  //     : kodeBelanja;
-  // console.log(filteredKodeBelanja.length)
-
+      
   const currentData = filteredKodeBelanja.slice(startIndex, endIndex);
 
-
   const formatString = (input) => {
-    // Split the string into an array of parts
     const strInput = `${input}`;
     const parts = [
       strInput.slice(0, 1),
@@ -38,15 +29,13 @@ const ItemsList = ({ searchRef, handleNextPage, handlePreviousPage, startIndex, 
       strInput.slice(6, 8),
       strInput.slice(8),
     ];
-
-    // Join the parts with dots
     const formattedString = parts.join(".").replace(/\.*$/, "");
     return formattedString;
   };
 
   return (
     <>
-    <p>Ditemukan {filteredKodeBelanja.length} data. </p>
+      <p>Ditemukan {filteredKodeBelanja.length} data. </p>
       <div className="divide-y-2 flex flex-col justify-between divide-slate-300">
         {currentData.map((e) => (
           <div key={e.kode} className="flex divide-x-2 divide-slate-300">
