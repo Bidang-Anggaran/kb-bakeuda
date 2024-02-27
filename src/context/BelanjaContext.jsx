@@ -31,7 +31,7 @@ const BelanjaProvider = ({ children }) => {
 
   const searchInputHandler = (input) => {
     setSearchInput(input);
-    // setCurrentPage(() => 1);
+    setCurrentPage(() => 1);
   };
 
   const handleItemsPerPage = (e) => {

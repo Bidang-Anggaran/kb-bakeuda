@@ -56,7 +56,7 @@ const ItemsList = () => {
               {e.keterangan == "" ? "Keterangan Belum Ditambah" : e.keterangan}
             </p>
             <p className="p-2 flex-[3] text-sm min-w-40">
-              {e.keterangan == "" ? "Ketentuan Belum Ditambah" : e.keterangan}
+              {e.ketentuan == "" ? "Ketentuan Belum Ditambah" : e.ketentuan}
             </p>
           </div>
         ))}
