@@ -37,6 +37,12 @@ const ItemsList = () => {
   return (
     <>
       <div className="divide-y-2 flex flex-col justify-between divide-slate-300">
+        <div className="w-full"></div>
+        {filteredKodeBelanja.length <1 ? (
+          <div className="text-center py-8 text-xl font-bold">
+            Tidak ada data yang ditemukan.
+          </div>
+        ) : null}
         {currentData.map((e) => (
           <div key={e.kode} className="flex divide-x-2 divide-slate-300">
             <div className="min-w-36">
@@ -60,6 +66,7 @@ const ItemsList = () => {
             </p>
           </div>
         ))}
+
         <Pagination totalItems={filteredKodeBelanja.length} />
       </div>
     </>

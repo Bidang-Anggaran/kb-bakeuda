@@ -86,7 +86,7 @@ const Pagination = ({ totalItems }) => {
         </svg>
       </button>
       <button
-        disabled={currentPage == totalPages}
+        disabled={currentPage == totalPages || totalPages < 1}
         onClick={() => {
           handlePageChange(currentPage + 1);
         }}
@@ -108,7 +108,7 @@ const Pagination = ({ totalItems }) => {
         </svg>
       </button>
       <button
-        disabled={currentPage == totalPages}
+        disabled={currentPage == totalPages || totalPages < 1}
         onClick={() => {
           handlePageChange(totalPages);
         }}
