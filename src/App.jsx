@@ -5,7 +5,7 @@ function App() {
   return (
     <>
       <BelanjaProvider>
-        <main className="container lg:max-w-4xl mx-auto px-4 text-slate-800 min-w-[640px]">
+        <main className="container lg:max-w-4xl mx-auto px-4 text-slate-800 min-w-[768px]">
           <div className="mx-auto flex flex-col w-max">
             <h1 className="font-bold text-4xl mt-8 ubuntu- py-2">
               Rekening Pedia

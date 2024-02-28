@@ -10,7 +10,7 @@ const SearchBar = () => {
         onSubmit={(e) => {
           e.preventDefault();
         }}
-        className="flex flex-col py-4 justify-between sticky top-0 bg-slate-200"
+        className="flex flex-col py-4 justify-between sticky top-0 bg-slate-200 min-w-[768px]"
       >
         <div className="w-full flex">
           <input
