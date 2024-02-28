@@ -38,32 +38,36 @@ const ItemsList = () => {
     <>
       <div className="divide-y-2 flex flex-col justify-between divide-slate-300">
         <div className="w-full"></div>
-        {filteredKodeBelanja.length <1 ? (
+        {filteredKodeBelanja.length < 1 ? (
           <div className="text-center py-8 text-xl font-bold">
             Tidak ada data yang ditemukan.
           </div>
         ) : null}
         {currentData.map((e) => (
-          <div key={e.kode} className="flex divide-x-2 divide-slate-300">
-            <div className="min-w-36">
+          <div key={e.kode} className="flex divide-slate-300 min-w-[640px]">
+            <div className="min-w-36 border-x-2 border-slate-300">
               <h2 className="font-bold flex-[2] text-sm p-2">
                 {formatString(e.kode)}
               </h2>
             </div>
-            <div className="p-2 flex-[3] min-w-40">
-              <h3 className="font-bold text-sm">{e.nama}</h3>
+            <div className="p-2 flex-[3] min-w-40 border-r-2 border-slate-300">
+              <h3 className="font-bold text-sm ">{e.nama}</h3>
               {e.deskripsi == "" ? (
                 <p className="text-sm">Deskripsi belum ditambah.</p>
               ) : (
                 <ReadMore>{e.deskripsi}</ReadMore>
               )}
             </div>
-            <p className="p-2 flex-[3] text-sm min-w-40">
+            <p className="p-2 flex-[3] text-sm min-w-40 border-r-2 border-slate-300">
               {e.keterangan == "" ? "Keterangan Belum Ditambah" : e.keterangan}
             </p>
-            <p className="p-2 flex-[3] text-sm min-w-40">
-              {e.ketentuan == "" ? "Ketentuan Belum Ditambah" : e.ketentuan}
-            </p>
+            <div
+              className="p-2 flex-[3] text-sm min-w-40 border-r-2 border-slate-300"
+            >
+              <p>
+                {e.ketentuan == "" ? "Ketentuan Belum Ditambah" : e.ketentuan}
+              </p>
+            </div>
           </div>
         ))}
 

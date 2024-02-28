@@ -13,12 +13,11 @@ const Pagination = ({ totalItems }) => {
   const totalPages = Math.ceil(totalItems / itemsPerPage);
 
   const handlePageChange = (newPage) => {
-    // setCurrentPage(newPage);
     handlePageNumber(newPage);
-    // Perform any other action you need when the page changes
   };
 
   const handleSelectChange = (event) => {
+    handlePageNumber(1);
     handleItemsPerPage(event.target.value);
   };
 
