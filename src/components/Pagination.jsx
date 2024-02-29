@@ -22,7 +22,7 @@ const Pagination = ({ totalItems }) => {
   };
 
   return (
-    <div className="w-full py-4 flex justify-end items-center">
+    <div className="w-full py-4 flex justify-end items-center text-xs">
       <p>Data per halaman : </p>
       <div className="mx-2">
         <select
@@ -45,7 +45,7 @@ const Pagination = ({ totalItems }) => {
         onClick={() => {
           handlePageChange(1);
         }}
-        className={`border py-2 px-4 rounded-md mx-1 hover:bg-slate-300 disabled:bg-slate-300 transition-colors`}
+        className={`border py-1 px-2 rounded-md mx-1 hover:bg-slate-300 disabled:bg-slate-300 transition-colors`}
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -53,7 +53,7 @@ const Pagination = ({ totalItems }) => {
           viewBox="0 0 24 24"
           strokeWidth={1.5}
           stroke="currentColor"
-          className="w-6 h-6"
+          className="w-4 h-4"
         >
           <path
             strokeLinecap="round"
@@ -67,7 +67,7 @@ const Pagination = ({ totalItems }) => {
         onClick={() => {
           handlePageChange(currentPage - 1);
         }}
-        className={`border py-2 px-4 rounded-md mx-1 hover:bg-slate-300 disabled:bg-slate-300 transition-colors`}
+        className={`border py-1 px-2 rounded-md mx-1 hover:bg-slate-300 disabled:bg-slate-300 transition-colors`}
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -75,7 +75,7 @@ const Pagination = ({ totalItems }) => {
           viewBox="0 0 24 24"
           strokeWidth={1.5}
           stroke="currentColor"
-          className="w-6 h-6"
+          className="w-4 h-4"
         >
           <path
             strokeLinecap="round"
@@ -89,7 +89,7 @@ const Pagination = ({ totalItems }) => {
         onClick={() => {
           handlePageChange(currentPage + 1);
         }}
-        className={`border py-2 px-4 rounded-md mx-1 hover:bg-slate-300 disabled:bg-slate-300 transition-colors`}
+        className={`border py-1 px-2 rounded-md mx-1 hover:bg-slate-300 disabled:bg-slate-300 transition-colors`}
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -97,7 +97,7 @@ const Pagination = ({ totalItems }) => {
           viewBox="0 0 24 24"
           strokeWidth={1.5}
           stroke="currentColor"
-          className="w-6 h-6"
+          className="w-4 h-4"
         >
           <path
             strokeLinecap="round"
@@ -111,7 +111,7 @@ const Pagination = ({ totalItems }) => {
         onClick={() => {
           handlePageChange(totalPages);
         }}
-        className={`border py-2 px-4 rounded-md mx-1 hover:bg-slate-300 disabled:bg-slate-300 transition-colors`}
+        className={`border py-1 px-2 rounded-md mx-1 hover:bg-slate-300 disabled:bg-slate-300 transition-colors`}
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -119,7 +119,7 @@ const Pagination = ({ totalItems }) => {
           viewBox="0 0 24 24"
           strokeWidth={1.5}
           stroke="currentColor"
-          className="w-6 h-6"
+          className="w-4 h-4"
         >
           <path
             strokeLinecap="round"

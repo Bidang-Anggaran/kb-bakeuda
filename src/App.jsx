@@ -5,10 +5,10 @@ function App() {
   return (
     <>
       <BelanjaProvider>
-        <main className="container lg:max-w-4xl mx-auto px-4 text-slate-800 min-w-[768px]">
+        <main className="container lg:max-w-4xl mx-auto text-slate-800 min-w-[768px] drop-shadow-lg">
           <div className="mx-auto flex flex-col w-max">
-            <h1 className="font-bold text-4xl mt-8 ubuntu- py-2">
-              Rekening Pedia
+            <h1 className="font-bold text-4xl mt-8 ubuntu-bold drop-shadow-lg text-sky-900 py-2">
+              REKENING PEDIA
             </h1>
           </div>
           <SearchBar />

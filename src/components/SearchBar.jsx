@@ -10,9 +10,9 @@ const SearchBar = () => {
         onSubmit={(e) => {
           e.preventDefault();
         }}
-        className="flex flex-col py-4 justify-between sticky top-0 bg-slate-200 min-w-[768px]"
+        className="flex flex-col justify-between sticky top-0 bg-slate-200 min-w-[768px] rounded-tr-lg rounded-tl-lg"
       >
-        <div className="w-full flex">
+        <div className="w-full flex px-2 py-2">
           <input
             type="search"
             ref={searchRef}
@@ -22,12 +22,8 @@ const SearchBar = () => {
           />
           <button
             onClick={() => {
-              // if (searchRef.current.value != "") {
               const filteredDots = searchRef.current.value.replace(/\./g, "");
               searchInputHandler(filteredDots);
-              // }
-              // console.log(searchRef.current.value);
-              // console.log(searchRef.current);
             }}
             className="px-6 py-2 font-bold bg-blue-500 text-slate-200 rounded-md ml-4 hover:bg-blue-600 transition-colors"
           >
@@ -35,52 +31,21 @@ const SearchBar = () => {
           </button>
         </div>
 
-        {/* <div className="py-2 flex">
-          <p className="mr-2">Cari Berdasarkan : </p>
-          <input
-            type="radio"
-            name="filterSearch"
-            id="kode"
-            className="border-indigo-600 bg-red-950 checked:border-slate-950 checked:bg-slate-950"
-          />
-          <label htmlFor="kode" className="mx-2">
-            Kode
-          </label>
-          <input
-            type="radio"
-            name="filterSearch"
-            id="nama"
-            className="border-indigo-600 bg-red-950 checked:border-slate-950 checked:bg-slate-950"
-          />
-          <label htmlFor="nama" className="mx-2">
-            Nama
-          </label>
-          <input
-            type="radio"
-            name="filterSearch"
-            id="deskripsi"
-            className="border-indigo-600 bg-red-950 checked:border-slate-950 checked:bg-slate-950"
-          />
-          <label htmlFor="deskripsi" className="mx-2">
-            Deskripsi
-          </label>
-        </div> */}
-        <div className="flex text-center">
-          <h2 className="font-bold flex-[2] text-sm py-2 min-w-36">
+        <div className="flex text-center border-y-2 mt-4 border-slate-300">
+          <h2 className="font-bold flex-[2] text-sm py-2 min-w-36 border-x-2 border-slate-300">
             Kode Rekening
           </h2>
-          <h2 className="flex-[3] px-2 font-bold text-sm py-2 min-w-40">
+          <h2 className="flex-[3] px-2 font-bold text-sm py-2 min-w-40 border-r-2 border-slate-300">
             Penjelasan
           </h2>
-          <h2 className="flex-[3] px-2 font-bold text-sm py-2 min-w-40">
+          <h2 className="flex-[3] px-2 font-bold text-sm py-2 min-w-40 border-r-2 border-slate-300">
             Keterangan
           </h2>
-          <h2 className="flex-[3] px-2 font-bold text-sm py-2 min-w-40">
+          <h2 className="flex-[3] px-2 font-bold text-sm py-2 min-w-40 border-r-2 border-slate-300">
             Ketentuan Lain-Lain
           </h2>
         </div>
       </form>
-      {/* <Dropdown /> */}
     </>
   );
 };

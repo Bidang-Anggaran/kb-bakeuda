@@ -36,7 +36,7 @@ const ItemsList = () => {
 
   return (
     <>
-      <div className="divide-y-2 flex flex-col justify-between divide-slate-300 min-w-[768px]">
+      <div className="divide-y-2 flex flex-col justify-between divide-slate-300 min-w-[768px] bg-slate-200  rounded-lg">
         <div className="w-full"></div>
         {filteredKodeBelanja.length < 1 ? (
           <div className="text-center py-8 text-xl font-bold">
@@ -44,9 +44,9 @@ const ItemsList = () => {
           </div>
         ) : null}
         {currentData.map((e) => (
-          <div key={e.kode} className="flex divide-slate-300 ">
-            <div className="min-w-36 border-x-2 border-slate-300">
-              <h2 className="font-bold flex-[2] text-sm p-2">
+          <div key={e.kode} className="flex">
+            <div className="min-w-36 flex-[2] border-x-2 border-slate-300">
+              <h2 className="font-bold  text-sm p-2">
                 {formatString(e.kode)}
               </h2>
             </div>
