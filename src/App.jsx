@@ -11,8 +11,11 @@ function App() {
             REKENING PEDIA
           </h1>
         </div>
+        <section className="shadow-xl">
+
           <SearchBar />
           <ItemsList />
+        </section>
         </main>
         <div className="h-24"></div>
       </BelanjaProvider>
