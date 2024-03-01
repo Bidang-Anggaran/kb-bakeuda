@@ -45,12 +45,12 @@ const ItemsList = () => {
         ) : null}
         {currentData.map((e) => (
           <div key={e.kode} className="flex">
-            <div className="min-w-36 flex-[2] border-x-2 border-slate-300">
+            <div className="min-w-36 flex-[1] border-x-2 border-slate-300">
               <h2 className="font-bold  text-sm p-2">
                 {formatString(e.kode)}
               </h2>
             </div>
-            <div className="p-2 flex-[3] min-w-40 border-r-2 border-slate-300">
+            <div className="p-2 flex-[5] min-w-40 border-r-2 border-slate-300">
               <h3 className="font-bold text-sm ">{e.nama}</h3>
               {e.deskripsi == "" ? (
                 <p className="text-sm">Deskripsi belum ditambah.</p>
@@ -58,11 +58,11 @@ const ItemsList = () => {
                 <ReadMore>{e.deskripsi}</ReadMore>
               )}
             </div>
-            <p className="p-2 flex-[3] text-sm min-w-40 border-r-2 border-slate-300">
+            <p className="p-2 flex-[2] text-sm min-w-40 border-r-2 border-slate-300">
               {e.keterangan == "" ? "Keterangan Belum Ditambah" : e.keterangan}
             </p>
             <div
-              className="p-2 flex-[3] text-sm min-w-40 border-r-2 border-slate-300"
+              className="p-2 flex-[2] text-sm min-w-40 border-r-2 border-slate-300"
             >
               <p>
                 {e.ketentuan == "" ? "Ketentuan Belum Ditambah" : e.ketentuan}
