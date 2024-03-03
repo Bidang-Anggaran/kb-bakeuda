@@ -1,21 +1,21 @@
-import kodeBelanja from "../json/kodeBelanja.json";
+import assets from "../json/kodeAsset.json";
 import ReadMore from "./ReadMore";
 import { useBelanja } from "../context/BelanjaContext";
 import Pagination from "./Pagination";
 
-const ItemsList = () => {
+const AssetsList = () => {
   const { startIndex, endIndex } = useBelanja();
 
   const { searchInput } = useBelanja();
 
   const filteredKodeBelanja =
     searchInput !== ""
-      ? kodeBelanja.filter((item) =>
+      ? assets.filter((item) =>
           Object.values(item).some((value) =>
             `${value}`.toLowerCase().includes(searchInput.toLowerCase())
           )
         )
-      : kodeBelanja;
+      : assets;
 
   const currentData = filteredKodeBelanja.slice(startIndex, endIndex);
 
@@ -35,7 +35,7 @@ const ItemsList = () => {
 
   return (
     <>
-      <div className="divide-y-2 flex flex-col justify-between divide-slate-300  bg-slate-200 min-w-[412px] rounded-lg">
+      <div className="divide-y-2 flex flex-col justify-between divide-slate-300 min-w-[768px] bg-slate-200  rounded-lg">
         <div className="w-full"></div>
         {filteredKodeBelanja.length < 1 ? (
           <div className="text-center py-8 text-xl font-bold">
@@ -44,23 +44,21 @@ const ItemsList = () => {
         ) : null}
         {currentData.map((e) => (
           <div key={e.kode} className="flex">
-            <div className="flex-[1] min-w-32 sm:min-w-[8.5rem] border-x-2 border-slate-300">
-              <h2 className="font-bold text-xs sm:text-sm p-2">
-                {formatString(e.kode)}
-              </h2>
+            <div className="min-w-36 flex-[1] border-x-2 border-slate-300">
+              <h2 className="font-bold  text-sm p-2">{formatString(e.kode)}</h2>
             </div>
-            <div className="p-2 flex-[5] border-r-2 border-slate-300">
-              <h3 className="font-bold text-xs sm:text-sm ">{e.nama}</h3>
-              {e.deskripsi == "" ? (
-                <p className="text-xs sm:text-sm">Deskripsi belum ditambah.</p>
+            <div className="p-2 flex-[2] min-w-40 border-r-2 border-slate-300">
+              <h3 className="font-bold text-sm ">{e.uraian}</h3>
+              {/* {e.deskripsi == "" ? (
+                <p className="text-sm">Deskripsi belum ditambah.</p>
               ) : (
                 <ReadMore>{e.deskripsi}</ReadMore>
-              )}
+              )} */}
             </div>
-            <p className="p-2 flex-[2] text-xs sm:text-sm border-r-2 border-slate-300">
-              {e.keterangan == "" ? "Keterangan Belum Ditambah" : e.keterangan}
+            <p className="p-2 flex-[5] text-sm min-w-40 border-r-2 border-slate-300">
+              {e.deskripsi == "" ? "Deskripsi Belum Ditambah" : e.deskripsi}
             </p>
-            <div className="p-2 flex-[2] text-xs sm:text-sm border-r-2 border-slate-300">
+            <div className="p-2 flex-[2] text-sm min-w-40 border-r-2 border-slate-300">
               <p>
                 {e.ketentuan == "" ? "Ketentuan Belum Ditambah" : e.ketentuan}
               </p>
@@ -74,4 +72,4 @@ const ItemsList = () => {
   );
 };
 
-export default ItemsList;
+export default AssetsList;

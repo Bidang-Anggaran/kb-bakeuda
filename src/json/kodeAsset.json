@@ -1,0 +1,602 @@
+[
+  {
+    "kode": 111201010001,
+    "uraian": "Bahan Bangunan dan Konstruksi",
+    "deskripsi": "Aspal, Semen, Kaca, Pasir, Batu, Cat, Seng, Baja, Electro Dalas, Patok Beton, Tiang Beton, Besi Beton, Tegel, Genteng, Bis Beton, Plat, Steel Sheet Pile, Concrete Sheet Pile, Kawat Bronjong, Karung, Minyak Cat/Thinner, Dst....",
+    "ketentuan": ""
+  },
+  {
+    "kode": 111201010002,
+    "uraian": "Bahan Kimia",
+    "deskripsi": "Bahan Kimia Padat, Bahan Kimia Cair, Bahan Kimia Gas, Bahan Kimia Nuklir, Dst..",
+    "ketentuan": ""
+  },
+  {
+    "kode": 111201010004,
+    "uraian": "Bahan Bakar dan Pelumas",
+    "deskripsi": "Bahan Bakar Minyak, Minyak Pelumas, Minyak Hydrolis, Bahan Bakar Gas, Batubara, Dst..",
+    "ketentuan": ""
+  },
+  {
+    "kode": 111201010005,
+    "uraian": "Bahan Baku",
+    "deskripsi": "Kawat, Kayu, Logam/Metalorgi, Latex, Biji Plastik, Karet (Bahan Baku), Dst....",
+    "ketentuan": ""
+  },
+  {
+    "kode": 111201010006,
+    "uraian": "Bahan Kimia Nuklir",
+    "deskripsi": "",
+    "ketentuan": ""
+  },
+  {
+    "kode": 111201010007,
+    "uraian": "Barang Dalam Proses",
+    "deskripsi": "Barang Dalam Proses, Dst..",
+    "ketentuan": ""
+  },
+  {
+    "kode": 111201010008,
+    "uraian": "Bahan/Bibit Tanaman",
+    "deskripsi": "Bahan/Bibit Tanaman Pertanian, Bahan/Bibit Tanaman Perkebunan, Dst..",
+    "ketentuan": ""
+  },
+  {
+    "kode": 111201010009,
+    "uraian": "Isi Tabung Pemadam Kebakaran",
+    "deskripsi": "Isi Tabung Pemadam Kebakaran 3 Kg ABC Powder, Dst..",
+    "ketentuan": ""
+  },
+  {
+    "kode": 111201010010,
+    "uraian": "Isi Tabung Gas",
+    "deskripsi": "Isi Tabung Gas Oksigen, Isi Tabung Gas Elpiji, Dst..",
+    "ketentuan": ""
+  },
+  {
+    "kode": 111201010011,
+    "uraian": "Bahan/Bibit Ternak/Bibit Ikan",
+    "deskripsi": "Bahan/Bibit Temak, Bahan/Bibit Ikan, Dst....",
+    "ketentuan": ""
+  },
+  {
+    "kode": 111201010012,
+    "uraian": "Bahan Lainnya",
+    "deskripsi": "Dst..",
+    "ketentuan": ""
+  },
+  {
+    "kode": 111201020001,
+    "uraian": "Suku Cadang Alat Angkutan",
+    "deskripsi": "Suku Cadang Alat Angkutan Darat Bermotor, Suku Cadang Alat Angkutan Darat Tak Bermotor, Suku Cadang Alat Angkutan Apung Bermotor, Suku Cadang Alat Angkutan Apung Tak Bermotor, Suku Cadang Alat Angkutan Udara Bermotor, Dst..",
+    "ketentuan": ""
+  },
+  {
+    "kode": 111201020002,
+    "uraian": "Suku Cadang Alat Besar",
+    "deskripsi": "Suku Cadang Alat Besar Darat, Suku Cadang Alat Besar Apung, Suku Cadang Alat Besar Bantu, Dst..",
+    "ketentuan": ""
+  },
+  {
+    "kode": 111201020003,
+    "uraian": "Suku Cadang Alat Kedokteran",
+    "deskripsi": "Suku Cadang Alat Kedokteran Umum, Suku Cadang Alat Kedokteran Gigi, Suku Cadang Alat Kedokteran Keluarga Berencana, Suku Cadang Alat Kedokteran Bedah, Suku Cadang Alat Kedokteran Kebidanan Dan Penyakit Kandungan, Suku Cadang Alat Kedokteran THT, Suku Cadang Alat Kedokteran Mata, Suku Cadang Alat Kedokteran Penyakit Dalam, Suku Cadang Alat Kedokteran Alat Kesehatan Anak, Suku Cadang Alat Kedokteran Poliklinik Set, Suku Cadang Alat Kedokteran Untuk Penderita Cacat Tubuh, Suku Cadang Alat Kedokteran Syaraf, Suku Cadang Alat Kedokteran Jantung, Suku Cadang Alat Kedokteran Nuklir, Suku Cadang Alat Kedokteran Radiologi, Suku Cadang Alat Kedokteran Kulit Dan Kelamin, Suku Cadang Alat Kedokteran Ugd, Suku Cadang Alat Kedokteran Hematologi, Suku Cadang Alat Kedokteran Hewan, Dst....",
+    "ketentuan": ""
+  },
+  {
+    "kode": 111201020004,
+    "uraian": "Suku Cadang Alat Laboratorium",
+    "deskripsi": "Suku Cadang Alat Laboratorium Kimia Air Taknik Penyehatan, Suku Cadang Alat Laboratorium Micro Biologi Penyehatan, Suku Cadang Alat Laboratorium Hidro Kimia, Suku Cadang Alat Laboratorium Model Hidrolika, Suku Cadang Alat Laboratorium Batuan/Geologi, Suku Cadang Alat Laboratorium Bahan Bangunan Konstruksi, Suku Cadang Alat Laboratorium Aspal, Cat Dan Kimia, Suku Cadang Alat Laboratorium Mekanika Tanah Dan Batuan, Suku Cadang Alat Laboratorium Cocok Tanam, Suku Cadang Alat Laboratorium Logam, Mesin Dan Listrik, Suku Cadang Alat Laboratorium Umum, Suku Cadang Alat Laboratorium Microbiologi, Suku Cadang Alat Laboratorium Kimia, Suku Cadang Alat Laboratorium Patologi, Suku Cadang Alat Laboratorium Immunologi, Suku Cadang Alat Laboratorium Film, Suku Cadang Alat Laboratorium Radio Isotop, Suku Cadang Alat Laboratorium Makanan, Suku Cadang Alat Laboratorium Aero Dinamika, Suku Cadang Alat Laboratorium Standarisasi Kaliberasi Dan Instrumen, Suku Cadang Alat Laboratorium Farmasi, Suku Cadang Alat Laboratorium Pemantauan Kualitas Udara, Suku Cadang Alat Laboratorium Fisika, Suku Cadang Alat Laboratorium Hidrodinamika, Suku Cadang Alat Laboratorium Pengkajian Teknik Pantai, Suku Cadang Alat Laboratorium Kematologi, Suku Cadang Alat Laboratorium Proses Peleburan, Suku Cadang Alat Laboratorium Pasir, Suku Cadang Alat Laboratorium Proses Pembuatan Cetakan, Suku Cadang Alat Laboratorium Proses Pembuatan Pola, Suku Cadang Alat Laboratorium Metalography, Suku Cadang Alat Laboratorium Proses Pengelasan, Suku Cadang Alat Laboratorium Uji Proses Pengelasan, Suku Cadang Alat Laboratorium Proses Pembuatan Logam, Suku Cadang Alat Laboratorium Metrologie, Suku Cadang Alat Laboratorium Proses Pelapisan Logam, Suku Cadang Alat Laboratorium Proses Pengolahan Panas, Suku Cadang Alat Laboratorium Proses Teknologi Tekstil, Suku Cadang Alat Laboratorium Uji Tekstil, Suku Cadang Alat Laboratorium Proses Teknologi Keramik, Suku Cadang Alat Laboratorium Proses Teknologi Kulit Karet, Suku Cadang Alat Laboratorium Uji Kulit Karet Dan Plastik, Suku Cadang Alat Laboratorium Alat Uji Keramik, Suku Cadang Alat Laboratorium Proses Teknologi Selulosa, Suku Cadang Alat Laboratorium Paska Panen, Suku Cadang Alat Laboratorium Pertanian (Suku Cadang Alat, Suku Cadang Alat Laboratorium Kualitas Air, Suku Cadang Alat Laboratorium Elektronika Dan Daya, Suku Cadang Alat Laboratorium Energi Surya, Suku Cadang Alat Laboratorium Konversi Batubara Dan Bioma, Suku Cadang Alat Laboratorium Oceanografi, Suku Cadang Alat Laboratorium Perairan, Suku Cadang Alat Laboratorium Biologi, Suku Cadang Alat Laboratorium Geofisika, Suku Cadang Alat Laboratorium Tambang, Suku Cadang Alat Laboratorium Tambang Proses/Teknik Kimia, Suku Cadang Alat Laboratorium Proses Industri, Suku Cadang Alat Laboratorium Kesehatan Kerja, Suku Cadang Alat Laboratorium Kearsipan, Suku Cadang Alat Laboratorium Perikanan dan Kelautan, Dst....",
+    "ketentuan": ""
+  },
+  {
+    "kode": 111201020005,
+    "uraian": "Suku Cadang Alat Pemancar",
+    "deskripsi": "Suku Cadang Alat Pemancar MF/MW, Suku Cadang Alat Pemancar HF/SW, Suku Cadang Alat Pemancar FHF/MF, Suku Cadang Alat Pemancar UHF, Suku Cadang Alat Pemancar SHF, Dst..",
+    "ketentuan": ""
+  },
+  {
+    "kode": 111201020006,
+    "uraian": "Suku Cadang Alat Studio dan Komunikasi",
+    "deskripsi": "Suku Cadang Alat Studio, Suku Cadang Alat Komunikasi, Dst..",
+    "ketentuan": ""
+  },
+  {
+    "kode": 111201020007,
+    "uraian": "Suku Cadang Alat Pertanian",
+    "deskripsi": "Suku Cadang Alat Pengolahan Ternak Dan Tanaman, Suku Cadang Alat Pemeliharaan Tanaman/Ikan/Ternak, Suku Cadang Alat Panen, Suku Cadang Alat Penyimpanan Hasil Percobaan Pertanian, Suku Cadang Alat Laboratorium Pertanian (Suku Cadang Alat Pertanian), Suku Cadang Alat Prossesing, Suku Cadang Alat Paska Panen, Suku Cadang Alat Produksi, Dst....",
+    "ketentuan": ""
+  },
+  {
+    "kode": 111201020008,
+    "uraian": "Suku Cadang Alat Bengkel",
+    "deskripsi": "Suku Cadang Alat Bengkel Bermesin, Suku Cadang Alat Bengkel Tidak Bermesin, Dst..",
+    "ketentuan": ""
+  },
+  {
+    "kode": 111201020010,
+    "uraian": "Persediaan dari Belanja Bantuan Sosial",
+    "deskripsi": "Dst..",
+    "ketentuan": ""
+  },
+  {
+    "kode": 111201020011,
+    "uraian": "Suku Cadang Lainnya",
+    "deskripsi": "Dst..",
+    "ketentuan": ""
+  },
+  {
+    "kode": 111201030001,
+    "uraian": "Alat Tulis Kantor",
+    "deskripsi": "Alat Tulis, Tinta Tulis, Tinta Stempel, Penjepit Kertas, Penghapus/Korektor, Buku Tulis, Ordner Dan Map, Penggaris, Cutter (Alat Tulis Kantor), Pita Mesin Ketik, Alat Perekat, Stadler HD, Staples, Isi Staples, Barang Cetakan, Seminar Kit, Dst....",
+    "ketentuan": ""
+  },
+  {
+    "kode": 111201030002,
+    "uraian": "Kertas dan Cover",
+    "deskripsi": "Kertas HVS, Berbagai Kertas, Kertas Cover, Amplop, Kop Surat, Dst..",
+    "ketentuan": ""
+  },
+  {
+    "kode": 111201030003,
+    "uraian": "Bahan Cetak",
+    "deskripsi": "Transparant Sheet, Tinta Cetak, Plat Cetak, Stensil Sheet, Chenical/Bahan Kimia Cetak, Film Cetak, Dst....",
+    "ketentuan": ""
+  },
+  {
+    "kode": 111201030004,
+    "uraian": "Benda Pos",
+    "deskripsi": "Materai, Perangko, Dst..",
+    "ketentuan": ""
+  },
+  {
+    "kode": 111201030005,
+    "uraian": "Persediaan Dokumen/Administrasi Tender",
+    "deskripsi": "Persediaan Dokumen/Administrasi Tender, Dst..",
+    "ketentuan": ""
+  },
+  {
+    "kode": 111201030006,
+    "uraian": "Bahan Komputer",
+    "deskripsi": "Continuous Form, Computer File/Tempat Disket, Pita Printer, Tinta/Toner Printer, Disket, USB/Flash Disk, Kartu Memori, CD/DVD Drive, Hard Disk Internal, Mouse, CD/DVD, Dst..",
+    "ketentuan": ""
+  },
+  {
+    "kode": 111201030007,
+    "uraian": "Perabot Kantor",
+    "deskripsi": "Sapu Dan Sikat, Alat-Alat Pel Dan Lap, Ember, Slang, Dan Tempat Air Lainnya, Keset Dan Tempat Sampah, Kunci, Kran Dan Semprotan, Alat Pengikat, Peralatan Ledeng, Bahan Kimia Untuk Pembersih, Alat Untuk Makan Dan Minum, Kaos Lampu Petromak, Kaca Lampu Petromak, Pengharum Ruangan, Kuas, Segel/Tanda Pengaman, Dst....",
+    "ketentuan": ""
+  },
+  {
+    "kode": 111201030008,
+    "uraian": "Alat Listrik",
+    "deskripsi": "Kabel Listrik, Lampu Listrik, Stop Kontak, Saklar, Stacker, Balast, Starter, Vitting, Accu, Batu Baterai, Stavol, Dst..",
+    "ketentuan": ""
+  },
+  {
+    "kode": 111201030009,
+    "uraian": "Perlengkapan Dinas",
+    "deskripsi": "Bahan Baku Pakaian, Penutup Kepala, Penutup Badan, Penutup Tangan, Penutup Kaki, Atribut, Perlengkapan Lapangan, Dst....",
+    "ketentuan": ""
+  },
+  {
+    "kode": 111201030010,
+    "uraian": "Kaporlap dan Perlengkapan Satwa",
+    "deskripsi": "Kaporlap dan Perlengkapan Satwa Anjing, Kaporlap dan Perlengkapan Satwa Kuda, Dst..",
+    "ketentuan": ""
+  },
+  {
+    "kode": 111201030011,
+    "uraian": "Perlengkapan Pendukung Olahraga",
+    "deskripsi": "-",
+    "ketentuan": ""
+  },
+  {
+    "kode": 111201030012,
+    "uraian": "Suvenir/Cendera Mata",
+    "deskripsi": "Plakat, Dst..",
+    "ketentuan": ""
+  },
+  {
+    "kode": 111201030013,
+    "uraian": "Alat/Bahan untuk Kegiatan Kantor Lainnya",
+    "deskripsi": "Dst..",
+    "ketentuan": ""
+  },
+  {
+    "kode": 111201040001,
+    "uraian": "Obat",
+    "deskripsi": "Obat Cair, Obat Padat, Obat Gas, Obat Serbuk/Tepung, Obat Gel/Salep, Alat/Obat Kontrasepsi Keluarga Berencana, Non Alat/Obat Kontrasepsi Keluarga Berencana, Dst....",
+    "ketentuan": ""
+  },
+  {
+    "kode": 111201040002,
+    "uraian": "Obat-obatan Lainnya",
+    "deskripsi": "Dst..",
+    "ketentuan": ""
+  },
+  {
+    "kode": 111201050001,
+    "uraian": "Persediaan untuk Dijual/Diserahkan Kepada Masyarakat",
+    "deskripsi": "Pita Cukai, Materai, Leges, Tanah dan Bangunan, Hewan dan Tanaman, Peralatan dan Mesin, Jalan, Irigasi, dan Jaringan, Aset Tetap Lainnya, Aset Lain-lain, Barang Persediaan, Dst..",
+    "ketentuan": ""
+  },
+  {
+    "kode": 111201050002,
+    "uraian": "Persediaan Untuk Dijual/Diserahkan Lainnya",
+    "deskripsi": "Dst..",
+    "ketentuan": ""
+  },
+  {
+    "kode": 111201060001,
+    "uraian": "Persediaan Untuk Tujuan Strategis/Berjaga-Jaga",
+    "deskripsi": "PERSEDIAAN UNTUK TUJUAN STRATEGIS/BERJAGA-JAGA, Cadangan Energi, Cadangan Pangan, Dst.., PERSEDIAAN UNTUK TUJUAN STRATEGIS/BERJAGA-JAGA, Dst..",
+    "ketentuan": ""
+  },
+  {
+    "kode": 111201060002,
+    "uraian": "Persediaan Untuk Tujuan Strategis/Berjaga-Jaga Lainnya",
+    "deskripsi": "-",
+    "ketentuan": ""
+  },
+  {
+    "kode": 111201070001,
+    "uraian": "Natura",
+    "deskripsi": "Makanan/Sembako, Minuman, Dst....",
+    "ketentuan": ""
+  },
+  {
+    "kode": 111201070002,
+    "uraian": "Pakan",
+    "deskripsi": "Pakan Hewan, Pakan Ikan, Dst..",
+    "ketentuan": ""
+  },
+  {
+    "kode": 111201070003,
+    "uraian": "Natura dan Pakan Lainnya",
+    "deskripsi": "Dst..",
+    "ketentuan": ""
+  },
+  {
+    "kode": 111201080001,
+    "uraian": "Persediaan Penelitian Biologi",
+    "deskripsi": "Hewan/Ternak, Biota Laut/Ikan, Tanaman, Dst..",
+    "ketentuan": ""
+  },
+  {
+    "kode": 111201080002,
+    "uraian": "Persediaan Penelitian Biologi Lainnya",
+    "deskripsi": "Dst..",
+    "ketentuan": ""
+  },
+  {
+    "kode": 111201080003,
+    "uraian": "Persediaan Penelitian Teknologi",
+    "deskripsi": "Antariksa, Pertanian, Perikanan, Perternakan, Perkebunan dan Kehutanan, Militer, Dst..",
+    "ketentuan": ""
+  },
+  {
+    "kode": 111201080004,
+    "uraian": "Persediaan Penelitian Lainnya",
+    "deskripsi": "Dst..",
+    "ketentuan": ""
+  },
+  {
+    "kode": 111201090001,
+    "uraian": "Persediaan Dalam Proses",
+    "deskripsi": "PERSEDIAAN DALAM PROSES, Tanah dan Bangunan dalam Proses, Peralatan dan Mesin dalam Proses, Jalan, Irigasi, dan Jaringan dalam Proses, Aset Tetap Lainnya dalam Proses, Aset Lain-Lain dalam Proses, Barang Persediaan dalam Proses, PERSEDIAAN DALAM PROSES LAINNYA, Dst....",
+    "ketentuan": ""
+  },
+  {
+    "kode": 111201090002,
+    "uraian": "Persediaan Dalam Proses Lainnya",
+    "deskripsi": "Dst....",
+    "ketentuan": ""
+  },
+  {
+    "kode": 111202010001,
+    "uraian": "Komponen Jembatan Baja",
+    "deskripsi": "Komponen Jembatan Bailley, Komponen Jembatan Baja Prefab, Dst..",
+    "ketentuan": ""
+  },
+  {
+    "kode": 111202010002,
+    "uraian": "Komponen Jembatan Pratekan",
+    "deskripsi": "Komponen Jembatan Pratekan Prefab, Dst..",
+    "ketentuan": ""
+  },
+  {
+    "kode": 111202010003,
+    "uraian": "Komponen Peralatan",
+    "deskripsi": "Dinamo Amper, Dinamo Start, Transmisi, Injection Pump, Karburator Unit, Motor Hidrolik, Engine Bensin, Engine Diesel, Dst..",
+    "ketentuan": ""
+  },
+  {
+    "kode": 111202010004,
+    "uraian": "Komponen Rambu-Rambu",
+    "deskripsi": "Komponen Rambu-Rambu Darat, Komponen Rambu-Rambu Udara, Dst..",
+    "ketentuan": ""
+  },
+  {
+    "kode": 111202010005,
+    "uraian": "Attachment",
+    "deskripsi": "Blade, Boom, Bucket, Scarifier, Dst....",
+    "ketentuan": ""
+  },
+  {
+    "kode": 111202010006,
+    "uraian": "Komponen Lainnya",
+    "deskripsi": "Dst..",
+    "ketentuan": ""
+  },
+  {
+    "kode": 111202020001,
+    "uraian": "Pipa Air Besi Tuang (DCI)",
+    "deskripsi": "DCI Filter, Pipa Air Besi Tuang, Dst..",
+    "ketentuan": ""
+  },
+  {
+    "kode": 111202020002,
+    "uraian": "Pipa Asbes Semen (ACP)",
+    "deskripsi": "A C P 1,0, A C P 1,5, A C P 2,0, A C P 2,5, A C P 3,0, Dst..",
+    "ketentuan": ""
+  },
+  {
+    "kode": 111202020003,
+    "uraian": "Pipa Baja",
+    "deskripsi": "Pipa Baja Gelombang, Pipa Baja Konstruksi (CSP), Pipa Baja Lapis Polyethelene, Pipa Baja Lapis Seng (GIP), Dst..",
+    "ketentuan": ""
+  },
+  {
+    "kode": 111202020004,
+    "uraian": "Pipa Beton Pratekan",
+    "deskripsi": "Fitter Pipa Beton Pratekan, Pipa Beton Pratekan, Dst....",
+    "ketentuan": ""
+  },
+  {
+    "kode": 111202020005,
+    "uraian": "Pipa Fiber Glass",
+    "deskripsi": "Filter Pipa Fiber Glass, Pipa Fiber Glass, Dst..",
+    "ketentuan": ""
+  },
+  {
+    "kode": 111202020006,
+    "uraian": "Pipa Plastik PVC (UPVC)",
+    "deskripsi": "Pipa Plastik PVC, UPVC Fitter, Dst..",
+    "ketentuan": ""
+  },
+  {
+    "kode": 111202020007,
+    "uraian": "Pipa Lainnya",
+    "deskripsi": "Dst..",
+    "ketentuan": ""
+  },
+  {
+    "kode": 111203010001,
+    "uraian": "Komponen Bekas",
+    "deskripsi": "Komponen Jembatan Baja Bekas, Komponen Jembatan Pratekan Bekas, Komponen Peralatan Bekas, Attachment Bekas, Kotak dan Bilik Suara, Dst..",
+    "ketentuan": ""
+  },
+  {
+    "kode": 111203010002,
+    "uraian": "Pipa Bekas",
+    "deskripsi": "Pipa Air Besi Tuang Bekas, Pipa Asbes Semen Bekas, Pipa Baja Bekas, Pipa Beton Pratekan Bekas, Pipa Fiber Gelas Bekas, Pipa Plastik PVC (UPVC) Bekas, Dst..",
+    "ketentuan": ""
+  },
+  {
+    "kode": 111203010003,
+    "uraian": "Komponen Bekas dan Pipa Bekas Lainnya",
+    "deskripsi": "Dst....",
+    "ketentuan": ""
+  },
+  {
+    "kode": 130101010001,
+    "uraian": "Tanah Bangunan Perumahan/Gedung Tempat Tinggal",
+    "deskripsi": "Tanah Bangunan Rumah Negara Golongan I, Tanah Bangunan Rumah Negara Golongan II, Tanah Bangunan Rumah Negara Golongan III, Tanah Bangunan Rumah Negara Tanpa Golongan, Tanah Bangunan Mess/Wisma/Asrama, Tanah Bangunan Peristirahatan/Bungalaow/Cottage, Tanah Bangunan Rumah Penjaga, Tanah Bangunan Rumah LP, Tanah Bangunan Rumah Tahanan/Rutan, Tanah Bangunan Flat/Rumah Susun, Tanah Kaveling Tanah Matang, Dst..",
+    "ketentuan": ""
+  },
+  {
+    "kode": 130101010002,
+    "uraian": "Tanah untuk Bangunan Gedung Perdagangan/Perusahaan",
+    "deskripsi": "Tanah Bangunan Pasar, Tanah Bangunan Pertokoan/Rumah Toko/Koperasi, Tanah Bangunan Gudang, Tanah Bangunan Stasiun Kereta Api, Tanah Bangunan Bioskop, Tanah Bangunan Hotel/Penginapan/Motel, Tanah Bangunan Terminal Darat, Tanah Bangunan Terminal Laut, Tanah Bangunan Terminal Udara, Tanah Bangunan Gedung Kesenian, Tanah Bangunan Gedung Pameran, Tanah Bangunan Gedung Pusat Perbelanjaan, Tanah Bangunan Apotik, Tanah Bangunan Garasi/Pool, Dst....",
+    "ketentuan": ""
+  },
+  {
+    "kode": 130101010003,
+    "uraian": "Tanah untuk Bangunan Industri",
+    "deskripsi": "Tanah Bangunan Industri Makanan, Tanah Bangunan Industri Minuman, Tanah Bangunan Industri Alat RT, Tanah Bangunan Industri Pakaian/Garment, Tanah Bangunan Industri Baja/Besi/Logam, Tanah Bangunan Industri Pengemasan, Tanah Bangunan Industri Bengkel, Tanah Bangunan Industri Penyulingan Minyak, Tanah Bangunan Industri Kimia Dan Pupuk, Tanah Bangunan Industri Obat-Obatan, Tanah Bangunan Industri Semen, Tanah Bangunan Industri Batu-Bata/Batako, Tanah Bangunan Industri Genteng, Tanah Bangunan Industri Percetakan, Tanah Bangunan Industri Tekstil, Tanah Bangunan Industri Alat Olah Raga, Tanah Bangunan Industri Kendaraan/Otomotif, Tanah Bangunan Industri Persenjataan, Tanah Bangunan Industri Kapal Udara, Tanah Bangunan Industri Kapal Laut, Tanah Bangunan Industri Kereta Api, Tanah Bangunan Industri Keramik/Marmer, Tanah Untuk Bangunan Pabrik Es, Dst....",
+    "ketentuan": ""
+  },
+  {
+    "kode": 130101010004,
+    "uraian": "Tanah untuk Bangunan Tempat Kerja",
+    "deskripsi": "Tanah Bangunan Kantor Pemerintah, Tanah Bangunan Pendidikan Dan Latihan, Tanah Bangunan Rumah Sakit, Tanah Bangunan Balai Sidang/Pertemuan, Tanah Bangunan Balai Nikah, Tanah Bangunan Puskesmas/Posyandu, Tanah Bangunan Poliklinik, Tanah Bangunan Laboratorium, Tanah Bangunan Fumigasi/Sterilisasi, Tanah Bangunan Karantina, Tanah Bangunan Bangsal Pengolahan/Pondok Kerja, Tanah Bangunan Kandang Hewan, Tanah Bangunan Bangunan Pembibitan, Tanah Bangunan Rumah Pendingin, Tanah Bangunan Rumah Pengeringan, Tanah Bangunan Stasiun Penelitian, Tanah Bangunan Gedung Pelelangan Ikan, Tanah Bangunan Pos Jaga/Menara Jaga, Tanah Bangunan Menara Pengawas/Tower/Lalu Lintas, Tanah Bangunan Gedung Perpustakaan, Tanah Bangunan Gedung Pengujian Kelaikan, Tanah Bangunan Gedung Oceanorium/Ebservatorium, Tanah Bangunan Gedung Pemotongan Hewan, Tanah Bangunan Gedung Pembakaran Bangkai Hewan, Tanah Bangunan Perawatan Kereta Api (Depo), Dst..",
+    "ketentuan": ""
+  },
+  {
+    "kode": 130101010005,
+    "uraian": "Tanah untuk Bangunan Gedung Sarana Olahraga",
+    "deskripsi": "Tanah Untuk Bangunan Sarana Olah Raga Tertutup, Tanah Untuk Bangunan Gedung Sarana Olah Raga Terbuka, Dst....",
+    "ketentuan": ""
+  },
+  {
+    "kode": 130101010006,
+    "uraian": "Tanah untuk Bangunan Tempat Ibadah",
+    "deskripsi": "Tanah Untuk Bangunan Masjid, Tanah Untuk Bangunan Gereja, Tanah Untuk Bangunan Pura, Tanah Untuk Bangunan Vihara, Tanah Untuk Bangunan Klenteng/Kuil, Tanah Untuk Bangunan Krematorium, Dst..",
+    "ketentuan": ""
+  },
+  {
+    "kode": 130101010007,
+    "uraian": "Tanah Persil Lainnya",
+    "deskripsi": "Dst..",
+    "ketentuan": ""
+  },
+  {
+    "kode": 130101020001,
+    "uraian": "Tanah Basah",
+    "deskripsi": "Tanah Rawa, Tanah Danau/Situ/Embung, Tanah Tambak/Empang/Kolam Ikan/Akuarium, Tanah Waduk, Tanah Sawah Irigasi, Tanah Aliran Sungai, Tanah Muara, Daerah Aliran Sungai (DAS), Daerah Sempadan Sumber Air, Dst..",
+    "ketentuan": ""
+  },
+  {
+    "kode": 130101020002,
+    "uraian": "Tanah Kering",
+    "deskripsi": "Tanah Tegalan, Tanah Kosong Yang Sudah Diperuntukkan, Tanah Hasil Reklamasi, Dst....",
+    "ketentuan": ""
+  },
+  {
+    "kode": 130101020003,
+    "uraian": "Tanah Perkebunan",
+    "deskripsi": "Tanah Kebun Entres, Tanah Kebun Induk, Tanah Kebun Percobaan, Dst..",
+    "ketentuan": ""
+  },
+  {
+    "kode": 130101020004,
+    "uraian": "Tanah Hutan",
+    "deskripsi": "Tanah Hutan Produksi, Tanah Hutan Cadangan, Tanah Hutan Lindung, Tanah Hutan Cagar Alam, Tanah Hutan Wisata, Tanah Hutan Taman Burung, Tanah Hutan Suaka Marga Satwa, Tanah Hutan Taman Nasional, Tanah Hutan Diklat, Dst..",
+    "ketentuan": ""
+  },
+  {
+    "kode": 130101020005,
+    "uraian": "Tanah Tandus",
+    "deskripsi": "Tanah Tandus Berbatu-Batu, Tanah Tandus Bekas Tambang/Galian, Tanah Tandus Berpasir/Pasir, Tanah Tandus Pengambilan/Kuari, Dst..",
+    "ketentuan": ""
+  },
+  {
+    "kode": 130101020006,
+    "uraian": "Tanah Padang Alang-Alang/Rumput",
+    "deskripsi": "Tanah Padang Alang-Alang, Tanah Padang Rumput, Tanah Padang Semak Belukar, Dst..",
+    "ketentuan": ""
+  },
+  {
+    "kode": 130101020007,
+    "uraian": "Tanah Pertanian",
+    "deskripsi": "Tanah Usaha, Dst....",
+    "ketentuan": ""
+  },
+  {
+    "kode": 130101020008,
+    "uraian": "Tanah Pertambangan",
+    "deskripsi": "Intan, Emas, Perak, Nikel, Timah, Uranium, Tembaga, Minyak Bumi, Batu Bara, Koslin, Batu Bara Berharga, Pasir Berharga, Dst..",
+    "ketentuan": ""
+  },
+  {
+    "kode": 130101020009,
+    "uraian": "Tanah Non Persil Lainnya",
+    "deskripsi": "Dst..",
+    "ketentuan": ""
+  },
+  {
+    "kode": 130101030001,
+    "uraian": "Tanah Lapangan Olahraga",
+    "deskripsi": "Tanah Lapangan Tenis, Tanah Lapangan Basket, Tanah Lapangan Badminton/Bulutangkis, Tanah Lapangan Golf, Tanah Lapangan Sepak Bola, Tanah Lapangan Bola Volly, Tanah Lapangan Sepak Takraw, Tanah Lapangan Pacuan Kuda, Tanah Lapangan Balap Sepeda, Tanah Lapangan Atletik, Tanah Lapangan Softball, Tanah Lapangan Hockey, Tanah Lapangan Balap Mobil, Tanah Lapangan Balap Motor, Tanah Lapangan Renang, Tanah Lapangan Futsal, Tanah Lapangan Senam, Tanah Lapangan Bela Diri, Tanah Lapangan Polo Air, Tanah Lapangan Hokki, Tanah Lapangan Tembak, Tanah Lapangan Halang Rintang, Tanah Lapangan Tembak Senjata Berat, Tanah Lapangan Tembak Darat ke Udara, Dst....",
+    "ketentuan": ""
+  },
+  {
+    "kode": 130101030002,
+    "uraian": "Tanah Lapangan Parkir",
+    "deskripsi": "Tanah Lapangan Parkir Konstruksi Beton, Tanah Lapangan Parkir Konstruksi Aspal, Tanah Lapangan Parkir Sirtu (Pasir Batu), Tanah Lapangan Parkir Konblok, Tanah Lapangan Parkir Tanah Keras, Tanah Lapangan Apel/Upacara, Dst..",
+    "ketentuan": ""
+  },
+  {
+    "kode": 130101030003,
+    "uraian": "Tanah Lapangan Penimbunan Barang",
+    "deskripsi": "Tanah Lapangan Penimbunan Barang Belum Diolah, Tanah Lapangan Penimbunan Barang Jadi, Tanah Lapangan Penimbunan Pembuangan Sampah, Tanah Lapangan Penimbunan Bahan Bangunan, Tanah Lapangan Penimbunan Barang Bukti, Tanah Lapangan Penimbunan Barang Lainnya, Tanah Lapangan Penimbunan Barang Konstruksi Beton, Tanah Lapangan Penimbunan Barang Konstruksi Aspal, Tanah Lapangan Penimbunan Barang Konstruksi Tanah, Dst....",
+    "ketentuan": ""
+  },
+  {
+    "kode": 130101030004,
+    "uraian": "Tanah Lapangan Pemancar dan Studio Alam",
+    "deskripsi": "Tanah Lapangan Pemancar TV/Radio/Radar, Tanah Lapangan Studio Alam, Dst..",
+    "ketentuan": ""
+  },
+  {
+    "kode": 130101030005,
+    "uraian": "Tanah Lapangan Pengujian/Pengolahan",
+    "deskripsi": "Tanah Lapangan Pengujian Kendaraan Bermotor, Tanah Lapangan Pengolahan Bahan Bangunan, Dst..",
+    "ketentuan": ""
+  },
+  {
+    "kode": 130101030006,
+    "uraian": "Tanah Lapangan Terbang",
+    "deskripsi": "Tanah Lapangan Terbang Perintis, Tanah Lapangan Terbang Komersial, Tanah Lapangan Terbang Khusus/Militer, Tanah Lapangan Terbang Olah Raga, Tanah Lapangan Terbang Pendidikan, Tanah Lapangan Terbang Latihan Penerjunan, Tanah Lapangan Tembak Udara (Air Weapon Range/AWR), Dst..",
+    "ketentuan": ""
+  },
+  {
+    "kode": 130101030007,
+    "uraian": "Tanah untuk Jalan",
+    "deskripsi": "Tanah Untuk Jalan Nasional, Tanah Untuk Jalan Propinsi, Tanah Untuk Jalan Kabupaten, Tanah Untuk Jalan Kotamadya, Tanah Untuk Jalan Desa, Tanah Untuk Jalan Tol, Tanah Untuk Jalan Kereta Api/Lori, Tanah Untuk Jalan Landasan Pacu Pesawat Terbang, Tanah Untuk Jalan Khusus/Komplek, Tanah Untuk Jembatan, Dst....",
+    "ketentuan": ""
+  },
+  {
+    "kode": 130101030008,
+    "uraian": "Tanah untuk Bangunan Air",
+    "deskripsi": "Tanah Untuk Bangunan Air Irigasi, Tanah Untuk Bangunan Pengairan Pasang Surut, Tanah Untuk Bangunan Pengembangan Rawa Dan Polder, Tanah Untuk Bangunan Pengaman Sungai Dan Penanggulangan Bencana, Alam Tanah Untuk Bangunan Pengembangan Sumber Air Dan Air Tanah, Tanah Untuk Bangunan Air Bersih/Air Baku, Tanah Untuk Bangunan Air Kotor, Tanah Untuk Bangunan Hatchery, Dst..",
+    "ketentuan": ""
+  },
+  {
+    "kode": 130101030009,
+    "uraian": "Tanah untuk Bangunan Instalasi",
+    "deskripsi": "Tanah Untuk Bangunan Instalasi Air Bersih/Air Baku, Tanah Untuk Bangunan Instalasi Air Kotor/Air Limbah, Tanah Untuk Bangunan Instalasi Pengolahan Sampah, Tanah Untuk Bangunan Instalasi Pengolahan Bahan Bangunan, Tanah Untuk Bangunan Instalasi Listrik, Tanah Untuk Bangunan Instalasi Gardu Listrik, Tanah Untuk Bangunan Instalasi Pengolahan Limbah, Tanah Untuk Bangunan Instalasi Pertahanan, Dst..",
+    "ketentuan": ""
+  },
+  {
+    "kode": 130101030010,
+    "uraian": "Tanah untuk Bangunan Jaringan",
+    "deskripsi": "Tanah Untuk Bangunan Jaringan Air Bersih/Air Baku, Tanah Untuk Bangunan Jaringan Komunikasi, Tanah Untuk Bangunan Jaringan Listrik, Tanah Untuk Bangunan Jaringan Gas/BBM, Dst....",
+    "ketentuan": ""
+  },
+  {
+    "kode": 130101030011,
+    "uraian": "Tanah untuk Bangunan Bersejarah",
+    "deskripsi": "Tanah Untuk Monumen, Tanah Untuk Tugu Peringatan, Tanah Untuk Tugu Batas Wilayah, Tanah Untuk Candi, Tanah Untuk Bangunan Museum, Tanah Untuk Bangunan Rumah Adat, Dst..",
+    "ketentuan": ""
+  },
+  {
+    "kode": 130101030012,
+    "uraian": "Tanah untuk Makam",
+    "deskripsi": "Tanah Untuk Makam Pahlawan, Tanah Untuk Makam Muslim, Tanah Untuk Makam Kristen, Tanah Untuk Makam Hindu/Budha/China, Tanah Untuk Makam Umum, Tanah Untuk Makam Bersejarah, Dst..",
+    "ketentuan": ""
+  },
+  {
+    "kode": 130101030013,
+    "uraian": "Tanah untuk Taman",
+    "deskripsi": "Tanah Lapangan Taman Peralatan Perambuan Pantai, Tanah Lapangan Taman Peralatan Meteo dan Geofisika, Dst..",
+    "ketentuan": ""
+  },
+  {
+    "kode": 130101030014,
+    "uraian": "Tanah untuk Latihan",
+    "deskripsi": "Tanah Untuk Latihan Tempur, Dst..",
+    "ketentuan": ""
+  },
+  {
+    "kode": 130101030015,
+    "uraian": "Tanah Daerah Pertahanan",
+    "deskripsi": "Tanah Untuk Pertahanan Pantai, Tanah Untuk Benteng Pertahanan, Tanah Daerah Pertahanan Pos PAMTAS, Dst....",
+    "ketentuan": ""
+  },
+  {
+    "kode": 130101030016,
+    "uraian": "Tanah Lapangan PBB",
+    "deskripsi": "Tanah Lapangan Untuk Parade / Devile, Dst..",
+    "ketentuan": ""
+  },
+  {
+    "kode": 130101030017,
+    "uraian": "Tanah Kampung",
+    "deskripsi": "Tanah Kampung, Dst..",
+    "ketentuan": ""
+  },
+  {
+    "kode": 130101030018,
+    "uraian": "Emplasment",
+    "deskripsi": "Emplasment, Dst..",
+    "ketentuan": ""
+  },
+  {
+    "kode": 130101030019,
+    "uraian": "Lapangan Lainnya",
+    "deskripsi": "Dst..",
+    "ketentuan": ""
+  }
+]

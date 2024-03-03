@@ -4,8 +4,10 @@
 
 html {
   background-color: #e2e8f0;
-  fill: beige;
-  fill-opacity: .4;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 .ubuntu-light {
