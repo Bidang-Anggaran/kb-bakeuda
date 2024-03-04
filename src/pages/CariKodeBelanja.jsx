@@ -13,7 +13,7 @@ const CariKodeBelanja = () => {
         </div>
         <section className="shadow-xl">
 
-          <SearchBar />
+          <SearchBar kodeMinW={'sm:min-w-[8.5rem]'} flexSize={[1,5,2,2]}/>
           <ItemsList />
         </section>
       </main>

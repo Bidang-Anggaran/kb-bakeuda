@@ -14,7 +14,7 @@ const CariKodeAsset = () => {
       {/* <Link to={'/'}>
             Ke Home
           </Link> */}
-        <SearchBar />
+        <SearchBar kodeMinW={'sm:min-w-36'} flexSize={[1,2,5,2]} />
         <AssetsList />
       </section>
     </main>
