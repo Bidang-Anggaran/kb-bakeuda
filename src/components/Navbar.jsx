@@ -8,7 +8,7 @@ const Navbar = ({ children }) => {
   return (
     <>
       <header
-        className={`bg-slate-900 backdrop-blur-sm w-full py-2 px-8 shadow-md flex justify-center min-w-[768px] ${
+        className={`bg-slate-900 backdrop-blur-sm w-full py-2 px-8 shadow-md flex justify-center min-w-[412px] ${
           pathname == "/" ? "hidden" : "block"
         }`}
       >
