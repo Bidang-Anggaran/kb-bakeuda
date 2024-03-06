@@ -58,11 +58,11 @@ const ItemsList = () => {
               )}
             </div>
             <p className="p-2 flex-[2] text-xs sm:text-sm border-r-2 border-slate-300">
-              {e.keterangan == "" ? "Keterangan Belum Ditambah" : e.keterangan}
+              {e.keterangan == "" ? "-" : e.keterangan}
             </p>
             <div className="p-2 flex-[2] text-xs sm:text-sm border-r-2 border-slate-300">
               <p>
-                {e.ketentuan == "" ? "Ketentuan Belum Ditambah" : e.ketentuan}
+                {e.ketentuan == "" ? "-" : e.ketentuan}
               </p>
             </div>
           </div>

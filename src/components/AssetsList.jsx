@@ -56,11 +56,11 @@ const AssetsList = () => {
               )} */}
             </div>
             <p className="p-2 flex-[5] text-sm min-w-40 border-r-2 border-slate-300">
-              {e.deskripsi == "" ? "Deskripsi Belum Ditambah" : e.deskripsi}
+              {e.deskripsi == "" ? "-" : e.deskripsi}
             </p>
             <div className="p-2 flex-[2] text-sm min-w-40 border-r-2 border-slate-300">
               <p>
-                {e.ketentuan == "" ? "Ketentuan Belum Ditambah" : e.ketentuan}
+                {e.ketentuan == "" ? "-" : e.ketentuan}
               </p>
             </div>
           </div>
