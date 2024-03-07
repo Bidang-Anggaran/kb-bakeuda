@@ -4,63 +4,63 @@
     "nama": "BELANJA DAERAH",
     "deskripsi": "Digunakan untuk mencatat semua kewajiban pemerintah daerah yang diakui sebagai pengurang nilai kekayaan bersih dalam periode tahun anggaran berkenaan.",
     "keterangan": "-",
-    "ketentuan": "KETENTUAN DLL"
+    "ketentuan": "-"
   },
   {
     "kode": "51",
     "nama": "BELANJA OPERASI",
     "deskripsi": "Digunakan untuk mencatat pengeluaran anggaran kegiatan sehari-hari pemerintah daerah yang memberi manfaat jangka pendek.",
-    "keterangan": "Akan ditambah nanti",
-    "ketentuan": "Ini teks ketentuan"
+    "keterangan": "-",
+    "ketentuan": "-"
   },
   {
     "kode": "5101",
     "nama": "Belanja Pegawai",
     "deskripsi": "Digunakan untuk mencatat kompensasi yang ditetapkan sesuai dengan ketentuan peraturan perundang-undangan yang diberikan kepada kepala daerah/wakil kepala daerah, pimpinan/anggota DPRD, dan pegawai ASN.",
-    "keterangan": "Akan ditambah nanti",
-    "ketentuan": "Ini teks ketentuan"
+    "keterangan": "-",
+    "ketentuan": "-"
   },
   {
     "kode": "510101",
     "nama": "Belanja Gaji dan Tunjangan ASN",
     "deskripsi": "Digunakan untuk mencatat belanja gaji pokok ASN, belanja tunjangan keluarga ASN, belanja tunjangan jabatan ASN, belanja tunjangan fungsional ASN, belanja tunjangan fungsional umum ASN, belanja tunjangan beras ASN, belanja tunjangan PPh/tunjangan khusus ASN, belanja pembulatan gaji ASN, belanja iuran jaminan kesehatan ASN, belanja iuran jaminan kecelakaan kerja ASN, belanja iuran jaminan kematian ASN, belanja iuran simpanan peserta tabungan perumahan rakyat ASN, belanja jaminan hari tua ASN, belanja tunjangan khusus*), belanja zakat ASN.",
-    "keterangan": "Akan ditambah nanti",
-    "ketentuan": "Ini teks ketentuan"
+    "keterangan": "-",
+    "ketentuan": "-"
   },
   {
     "kode": "51010101",
     "nama": "Belanja Gaji Pokok ASN",
     "deskripsi": "",
-    "keterangan": "Akan ditambah nanti",
-    "ketentuan": "Ini teks ketentuan"
+    "keterangan": "-",
+    "ketentuan": "-"
   },
   {
     "kode": "510101010001",
     "nama": "Belanja Gaji Pokok PNS",
     "deskripsi": "Digunakan untuk mencatat belanja gaji pokok bagi Pegawai Negeri Sipil.",
-    "keterangan": "Akan ditambah nanti",
-    "ketentuan": "Ini teks ketentuan"
+    "keterangan": "-",
+    "ketentuan": "-"
   },
   {
     "kode": "510101010002",
     "nama": "Belanja Gaji Pokok PPPK",
     "deskripsi": "Digunakan untuk mencatat belanja gaji pokok bagi pegawai pemerintah dengan perjanjian kontrak.",
-    "keterangan": "Akan ditambah nanti",
-    "ketentuan": "Ini teks ketentuan"
+    "keterangan": "-",
+    "ketentuan": "-"
   },
   {
     "kode": "51010102",
     "nama": "Belanja Tunjangan Keluarga ASN",
     "deskripsi": "",
-    "keterangan": "Akan ditambah nanti",
-    "ketentuan": "Ini teks ketentuan"
+    "keterangan": "-",
+    "ketentuan": "-"
   },
   {
     "kode": "510101020001",
     "nama": "Belanja Tunjangan Keluarga PNS",
     "deskripsi": "Digunakan untuk mencatat belanja tunjangan keluarga bagi Pegawai Negeri Sipil.",
     "keterangan": "",
-    "ketentuan": ""
+    "ketentuan": "-"
   },
   {
     "kode": "510101020002",
@@ -2167,7 +2167,7 @@
     "nama": "Belanja Makanan dan Minuman Rapat",
     "deskripsi": "Digunakan untuk mencatat belanja makanan dan minuman untuk rapat, sosialisasi, bimbingan teknis, seminar dan sejenisnya termasuk lembur.",
     "keterangan": "",
-    "ketentuan": ""
+    "ketentuan": "Minimal pelaksanaan rapat 2 jam"
   },
   {
     "kode": "510201010053",
@@ -23686,12 +23686,5 @@
     "deskripsi": "Digunakan untuk mencatat belanja transfer dana otonomi khusus provinsi kepada kabupaten/kota dalam rangka kerja sama daerah, pemerataan peningkatan\nkemampuan keuangan, dan/atau tujuan tertentu lainnya.",
     "keterangan": "",
     "ketentuan": ""
-  },
-  {
-    "kode": "xxxxxx345",
-    "nama": "belanja",
-    "deskripsi": "-",
-    "keterangan": "-",
-    "ketentuan": "-"
   }
 ]
