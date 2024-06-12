@@ -1,4 +1,3 @@
-
 import AssetsList from "../components/AssetsList";
 import SearchBar from "../components/SearchBar";
 
@@ -11,10 +10,19 @@ const CariKodeAsset = () => {
         </h1>
       </div>
       <section className="shadow-xl">
-      {/* <Link to={'/'}>
+        {/* <Link to={'/'}>
             Ke Home
           </Link> */}
-        <SearchBar kodeMinW={'sm:min-w-36'} flexSize={[1,2,5,2]} />
+        <SearchBar
+          kodeMinW={"sm:min-w-36"}
+          flexSize={[1, 2, 5, 2]}
+          tabTitle={[
+            "Kode Rekening",
+            "Penjelasan",
+            "Keterangan",
+            "Ketentuan Lain-Lain",
+          ]}
+        />
         <AssetsList />
       </section>
     </main>

@@ -46,23 +46,23 @@ const ItemsList = () => {
           <div key={e.kode} className="flex">
             <div className="flex-[1] min-w-32 sm:min-w-[8.5rem] border-x-2 border-slate-300">
               <h2 className="font-bold text-xs sm:text-sm p-2">
-                {formatString(e.kode)}
+                {e["Kode Akun"]}
               </h2>
             </div>
-            <div className="p-2 flex-[5] border-r-2 border-slate-300">
+            <div className="p-2 flex-[3] border-r-2 border-slate-300">
               <h3 className="font-bold text-xs sm:text-sm ">{e.nama}</h3>
-              {e.deskripsi == "" ? (
+              {e["Uraian Akun"] == "" ? (
                 <p className="text-xs sm:text-sm">Deskripsi belum ditambah.</p>
               ) : (
-                <ReadMore>{e.deskripsi}</ReadMore>
+                <ReadMore>{e["Uraian Akun"]}</ReadMore>
               )}
             </div>
-            <p className="p-2 flex-[2] text-xs sm:text-sm border-r-2 border-slate-300">
-              {e.keterangan == "" ? "-" : e.keterangan}
+            <p className="p-2 flex-[6] text-xs sm:text-sm border-r-2 border-slate-300">
+              {e.Deskripsi == "" ? "-" : e.Deskripsi}
             </p>
-            <div className="p-2 flex-[2] text-xs sm:text-sm border-r-2 border-slate-300">
+            <div className="p-2 flex-[3] text-xs sm:text-sm border-r-2 border-slate-300">
               <p>
-                {e.ketentuan == "" ? "-" : e.ketentuan}
+                {e["Contoh / Ketentuan"] == "" ? "-" : e["Contoh / Ketentuan"]}
               </p>
             </div>
           </div>

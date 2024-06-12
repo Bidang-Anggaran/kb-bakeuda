@@ -1,4 +1,3 @@
-
 import ItemsList from "../components/ItemsList";
 import SearchBar from "../components/SearchBar";
 
@@ -12,8 +11,16 @@ const CariKodeBelanja = () => {
           </h1>
         </div>
         <section className="shadow-xl">
-
-          <SearchBar kodeMinW={'sm:min-w-[8.5rem]'} flexSize={[1,5,2,2]}/>
+          <SearchBar
+            kodeMinW={"sm:min-w-[8.5rem]"}
+            flexSize={[1, 3, 6, 3]}
+            tabTitle={[
+              "Kode Akun",
+              "Uraian Akun",
+              "Deskripsi",
+              "Contoh / Ketentuan",
+            ]}
+          />
           <ItemsList />
         </section>
       </main>

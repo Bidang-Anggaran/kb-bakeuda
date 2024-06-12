@@ -1,7 +1,7 @@
 import { useRef } from "react";
 import { useBelanja } from "../context/BelanjaContext";
 
-const SearchBar = ({kodeMinW, flexSize}) => {
+const SearchBar = ({kodeMinW, flexSize, tabTitle}) => {
   const searchRef = useRef(null);
   const { searchInputHandler } = useBelanja();
 
@@ -34,16 +34,16 @@ const SearchBar = ({kodeMinW, flexSize}) => {
 
           <div className="flex text-center border-y-2 mt-4 border-slate-300">
             <h2 className={`font-bold flex-[${flexSize[0]}] text-sm py-2 min-w-32 ${kodeMinW} border-x-2 border-slate-300`}>
-              Kode Rekening
+              {tabTitle[0]}
             </h2>
             <h2 className={`flex-[${flexSize[1]}] px-2 font-bold text-sm py-2  border-r-2 border-slate-300`}>
-              Penjelasan
+            {tabTitle[1]}
             </h2>
             <h2 className={`flex-[${flexSize[2]}] px-2 font-bold text-sm py-2  border-r-2 border-slate-300`}>
-              Keterangan
+            {tabTitle[2]}
             </h2>
             <h2 className={`flex-[${flexSize[3]}] px-2 font-bold text-sm py-2  border-r-2 border-slate-300`}>
-              Ketentuan Lain-Lain
+            {tabTitle[3]}
             </h2>
           </div>
       </form>
