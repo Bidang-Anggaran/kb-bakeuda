@@ -23,8 +23,8 @@ const SearchBar = ({kodeMinW, flexSize, tabTitle}) => {
             />
             <button
               onClick={() => {
-                const filteredDots = searchRef.current.value.replace(/\./g, "");
-                searchInputHandler(filteredDots);
+                // const filteredDots = searchRef.current.value.replace(/\./g, "");
+                searchInputHandler(searchRef.current.value);
               }}
               className="px-6 py-2 font-bold bg-blue-500 text-slate-200 rounded-md ml-4 hover:bg-blue-600 transition-colors"
             >

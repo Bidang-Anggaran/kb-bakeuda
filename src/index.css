@@ -57,3 +57,7 @@ html {
   font-weight: 700;
   font-style: italic;
 }
+
+.highlight {
+  background-color: #fef08a;
+}
